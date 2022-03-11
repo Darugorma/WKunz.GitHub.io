@@ -1,1 +1,104 @@
-# WKunz.GitHub.io
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="home-style.css">
+</head>
+
+<body>
+
+    <div id="Dropdown-Menu"></div> 
+
+        <nav>
+
+            <p>Project: New Dawn</p>
+
+            <ul>
+
+                <li><a href="#">Home</a></li>
+
+                <li><a href="#">Mitglieder ▼</a>
+                    <ul>
+                        <li><a href="file:///C:/Users/Wolfgang/Desktop/Webseiten%20f%C3%BCr%20Pr%C3%A4sentation/mitgliederliste/alle_mitglieder.html">Alle Mitglieder</a></li>
+                        <li class="Platform"><a href="#">Plattformen ▼</a>
+                            <ul>
+
+                                    <li><a class="sub-menu2" href="file:///C:/Users/Wolfgang/Desktop/Webseiten%20f%C3%BCr%20Pr%C3%A4sentation/mitglieder%202.0/Mitglieder.html">Mitglieder 2.0</a></li>
+                                    <li><a class="sub-menu2" href="file:///C:/Users/Wolfgang/Desktop/Webseiten%20f%C3%BCr%20Pr%C3%A4sentation/registrierungsdatenbank/registrierungdatenbank.html">Regist.Daten</a></li>
+                                    <li><a class="sub-menu2" href="#">Playstation</a></li>
+                                    <li><a class="sub-menu2" href="#">Switch</a></li>
+    
+                            </ul>
+                        
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li><a href="#">Hilfe ▼</a></li>
+                <li><a href="file:///C:/Users/Wolfgang/Desktop/Webseiten%20f%C3%BCr%20Pr%C3%A4sentation/login/index.html">Login</a></li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+    <div id="container">
+        <div id="main-content">
+            <h1>Home</h1>
+            <h2>Über Project: New Dawn</h2>
+            <p>Dies ist eine Community Homepage für die Mitglieder von "Project: New Dawn".</p>
+            <p>Hier könnt ihr alle registrierten Mitglieder sehen, um mit diesen zu spielen oder auch um euch nur untereinander auszutauschen</p>
+            
+
+        </div>
+    </div>
+
+    <footer id="footer">
+
+        <div id="Social-Media">   
+            <table>
+
+                <tr>
+                
+                    <td>
+                        <a class="YouTube" href="https://www.youtube.com/channel/UCHGuo0OsXxfW2VXR7Z5lO1g" target="_blank">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </td>
+                
+                    <td>
+                        <a class="Twitch" href="https://www.twitch.tv/darugorma" target="_blank">
+                            <ion-icon name="logo-twitch"></ion-icon>
+                        </a>
+                    </td>
+            
+                    <td>
+                        <a class="Discord" href="https://discord.gg/znuzta9EUD" target="_blank">
+                            <ion-icon name="logo-discord"></ion-icon>
+                        </a>
+                    </td>
+                
+                    <td>
+                        <a class="Facebook" href="https://www.facebook.com/" target="_blank">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </td>
+            
+                </tr>
+
+            </table>
+        </div>
+
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
